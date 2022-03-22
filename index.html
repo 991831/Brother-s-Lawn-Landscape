@@ -31,6 +31,12 @@ main>div{
 h2{
   text-align:center;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 </style>
 <script>
@@ -46,8 +52,10 @@ window.onload = init;
 </script>
 </head>
 <body>
+<div class="container"></div>
 <img src="https://st2.depositphotos.com/1036708/7630/i/600/depositphotos_76306231-stock-photo-lawn-mower.jpg">
-<h1>Brother's Lawn & Landscapes</h1>
+<div class="centered">Brother's Lawn & Landscapes</div>
+</div>
 <main>
 <div id="right">
   <h2>Background</h2>
